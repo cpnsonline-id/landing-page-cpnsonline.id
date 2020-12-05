@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+body {
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247, 250, 252, var(--bg-opacity));
+  font-family: 'Montserrat', sans-serif;
+}
+.separator {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom-width: 1px;
+  --border-opacity: 1;
+  border-color: #cbd5e0;
+  border-color: rgba(203, 213, 224, var(--border-opacity));
+}
+.bg-primary{
+  --bg-opacity: 1;
+  background-color: #5270ff;
+  background-color: rgba(82, 112, 255, var(--bg-opacity));
+}
+.bg-gray-light {
+  --bg-opacity: 1;
+  background-color: #cbd5e0;
+  background-color: rgba(203, 213, 224, var(--bg-opacity));
+}
+.bg-cta-primary {
+  --bg-opacity: 1;
+  background-color: #ffa052;
+  background-color: rgba(255, 160, 82, var(--bg-opacity));
+}
+.bg-success {
+  --bg-opacity: 1;
+  background-color: #10B981;
+  background-color: rgba(16, 185, 129, var(--bg-opacity));
+}
+.text-white {
+  --text-opacity: 1;
+  color: #ffffff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+.text-primary{
+  --text-opacity: 1;
+  color: #5270ff;
+  color: rgba(82, 112, 255, var(--text-opacity));
+}
+.text-secondary {
+  --text-opacity: 1;
+  color: #eb3237;
+  color: rgba(235, 50, 55, var(--text-opacity));
+}
+.border-primary {
+  --border-opacity: 1;
+  border-color: #5270ff;
+  border-color: rgba(82, 112, 255, var(--border-opacity));
+}
+.border-white {
+  --border-opacity: 1;
+  border-color: #ffffff;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
+}
+.header {
+  background: url(../img/bg-footer.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.video, .about, .testimoni, .faq, .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
